@@ -2,12 +2,12 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "machine-name"
+name = "absorbing-machine"
 version = "0.0.1"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
 ]
-description = "Machine description"
+description = "A Machine that absorbs publicly available information."
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers=[
@@ -16,7 +16,7 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["machine-name"]
+keywords = ["absorbing-machine"]
 
 dependencies = [
     "electroid >= 0.0.16",
@@ -29,8 +29,8 @@ dependencies = [
 ]
 
 [project.scripts]
-machine-name = "machine_name.cli:run"
+absorbing-machine = "absorbing_machine.cli:run"
 
 [project.urls]
-"Homepage" = "https://github.com/machine-name/machine-name"
-"Bug Tracker" = "https://github.com/machine-name/machine-name/issues"
+"Homepage" = "https://github.com/absorbing-machine/absorbing-machine"
+"Bug Tracker" = "https://github.com/absorbing-machine/absorbing-machine/issues"
